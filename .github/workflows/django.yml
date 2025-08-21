@@ -26,7 +26,7 @@ jobs:
         python3 -m pip install --upgrade pip
         pip3 install -r requirements.txt
     - name: Run Tests
-      working-directory: dev/deploy-django/src
+      working-directory: deploy-django/src
       run: |
         python manage.py test
  
